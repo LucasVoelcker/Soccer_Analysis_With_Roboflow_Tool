@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Processor</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>Video Processor</h1>
+
+      <form id="upload-form">
+        <input id="video-input" name="video" type="file" accept="video/*" required />
+        <button id="process-button" type="submit">Upload and Process Video</button>
+      </form>
+
+      <p id="status"></p>
+
+      <video id="result-video" controls playsinline></video>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
