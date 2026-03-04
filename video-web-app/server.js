@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000;
 const appRoot = __dirname;
 const uploadsDir = path.join(appRoot, "uploads");
 const outputsDir = path.join(appRoot, "outputs");
-const pythonScriptPath = path.join(appRoot, "..", "final", "generate-output-video.py");
+const pythonScriptPath = path.join(appRoot, "..", "generate-output-video.py");
 
 fs.mkdirSync(uploadsDir, { recursive: true });
 fs.mkdirSync(outputsDir, { recursive: true });
