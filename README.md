@@ -13,4 +13,4 @@ with the players' bounding boxes and a map of the field drawn below, showing the
 Below is a sample of the web page in operation:
 ![GravaodeTela2026-03-04171306-ezgif com-resize](https://github.com/user-attachments/assets/38a011de-c53a-4866-a5b3-1ea508cb5b53)
 
-P.S. I am still working on improvements to this project, like differentiating players of different teams and tracking the ball.
+P.S. I am still working on improvements to this project, like differentiating players of different teams, keeping the same ID to each player (when they appear in a sequence of frames), and tracking the ball.
